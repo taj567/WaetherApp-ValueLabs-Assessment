@@ -1,0 +1,66 @@
+.app-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weather-container {
+    width: 500px;
+    height: 500px;
+    opacity: 100px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.weather-container h1,
+p {
+    color: #fff;
+}
+
+.search-input {
+    height: 20px;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+    margin-right: 10px;
+    width: '100%';
+}
+
+.get-weather-submit-button {
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(32, 52, 230);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.weather-description {
+    margin-top: 50px;
+    color: #000;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
